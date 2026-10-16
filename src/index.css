@@ -69,8 +69,8 @@ a{color:inherit}
 .art{display:block;flex:none;background:var(--ink);-webkit-mask:var(--m) no-repeat center/contain;mask:var(--m) no-repeat center/contain;
   animation:sway 6s ease-in-out infinite alternate;transform-origin:50% 90%}
 .m-pumpkin{--m:url('./assets/pumpkin.webp');width:min(30vw,150px);aspect-ratio:300/259}
-.m-cinnamon{--m:url('./assets/cinnamon.webp');width:min(26vw,130px);aspect-ratio:200/144}
-.m-martini{--m:url('./assets/martini.webp');width:min(20vw,105px);aspect-ratio:220/461}
+.m-cinnamon{--m:url('./assets/Kaffee.svg');width:min(26vw,185px);aspect-ratio:200/144}
+.m-martini{--m:url('./assets/Martini.svg');width:min(20vw,185px);aspect-ratio:320/461}
 .m-burger{--m:url('./assets/burger.webp');width:min(36vw,200px);aspect-ratio:380/248;animation:none}
 @keyframes sway{from{transform:rotate(-3deg)}to{transform:rotate(3deg)}}
 .badge{position:relative;flex:none;width:min(32vw,132px);aspect-ratio:1;display:grid;place-items:center;color:var(--paper)}
