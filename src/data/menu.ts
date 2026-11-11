@@ -875,20 +875,22 @@ export const PANELS: Panel[] = [
         "items": [
           {
             "name": "Guacamole Fitness Bread",
-            "price": "14,90 €",
+           
             "desc": "Eiweißbrot mit frischer Guacamole, zwei pochierten Eiern, Kirschtomaten, Rucola und Balsamico-Glace."
           },
           {
             "name": "Fitness Egg & Bresaola Bread",
-            "price": "14,90 €",
+           
             "desc": "Eiweißbrot mit Zitronen-Schmand, saftigem Rührei, hauchdünner Bresaola und Rucola."
           },
           {
             "name": "Fitness Bread",
-            "price": "13,90 €",
+          
             "desc": "Eiweißbrot mit Frischkäse, leichtem Pesto, Putenbrust, Mozzarella Light, 2 pochierten Eiern, Salat, Tomate, Gurke & Balsamico."
           }
-        ]
+          
+        ],
+        "price": "14,90 €",
       },
       {
         "title": "Sides & Snacks",
