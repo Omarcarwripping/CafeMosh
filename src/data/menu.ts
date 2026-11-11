@@ -490,7 +490,7 @@ export const PANELS: Panel[] = [
           {
             "name": "Säfte 0,3l",
             "price": "4,20 €",
-            "desc": "Apfelsaft, Mangosaft, Maracujasaft, Orangensaft, Johannisbeersaft"
+            "desc": "Apfelsaft, Mangosaft, Maracujasaft,Orangensaft, Johannisbeersaft"
           },
           {
             "name": "Schorlen 0,3l",
