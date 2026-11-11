@@ -258,73 +258,8 @@ export const PANELS: Panel[] = [
           }
         ]
       },
-      {
-        "title": "LOFTEA",
-        "items": [
-          {
-            "name": "Eli Erdbeere",
-            "desc": "Erdbeer · Papaya"
-          },
-          {
-            "name": "Timo Weltklasse",
-            "desc": "Hanf-Zitrone"
-          },
-          {
-            "name": "Horst-Himbeere",
-            "desc": "Himbeere · Minze"
-          },
-          {
-            "name": "Hanna-Colada",
-            "desc": "Ananas · Kokos · Hibiskus"
-          },
-          {
-            "name": "Leni Marie",
-            "desc": "Mango · Mandarine"
-          },
-          {
-            "name": "Lofly Kamille",
-            "desc": "Kamille"
-          },
-          {
-            "name": "Earl Grey",
-            "desc": "Schwarztee · Bergamotte"
-          },
-          {
-            "name": "Björn Blaubeere",
-            "desc": "Kiwi · Blaubeere"
-          },
-          {
-            "name": "Nana Mint",
-            "desc": "Minze"
-          },
-          {
-            "name": "Nikolaus",
-            "desc": "Apfel · Zimt"
-          },
-          {
-            "name": "Pfirsich Pauli",
-            "desc": "Pfirsich · Rooibos"
-          }
-        ],
-        "note": "Loser Tee, frisch aufgebrüht mit echten Fruchtstücken. Jede Sorte 4,80 €.",
-        "price": "4,80 €"
-      },
-      {
-        "title": "LOFTEA Eistee",
-        "items": [
-          {
-            "name": "Pfirsich"
-          },
-          {
-            "name": "Himbeere"
-          },
-          {
-            "name": "Kiwi, Blaubeere"
-          }
-        ],
-        "note": "Frisch aufgebrüht. Ohne Zuckerzusatz. Ohne Sirup. Voller Geschmack.",
-        "price": "6,00 €"
-      }
+
+
     ]
   },
   {
@@ -382,11 +317,11 @@ export const PANELS: Panel[] = [
           },
           {
             "name": "Chai Latte",
-            "price": "5,20 €"
+            "price": "5,90 €"
           },
           {
             "name": "Hot Chocolate",
-            "price": "4,20 €"
+            "price": "5,90 €"
           }
         ],
         "footnote": "*Wahlweise auch entkoffeiniert."
@@ -468,20 +403,78 @@ export const PANELS: Panel[] = [
           }
         ]
       },
+
       {
-        "title": "Tea",
+        "title": "TEA/LOFTEA",
         "items": [
+
           {
-            "name": "Versch. Sorten",
-            "price": "2,90 €",
-            "desc": "Grün, Schwarz, Früchte, Ingwer, Kamille oder Pfefferminze"
+            "name": "Eli Erdbeere",
+            "desc": "Erdbeer · Papaya"
+          },
+          {
+            "name": "Timo Weltklasse",
+            "desc": "Hanf-Zitrone"
+          },
+          {
+            "name": "Horst-Himbeere",
+            "desc": "Himbeere · Minze"
+          },
+          {
+            "name": "Hanna-Colada",
+            "desc": "Ananas · Kokos · Hibiskus"
+          },
+          {
+            "name": "Leni Marie",
+            "desc": "Mango · Mandarine"
+          },
+          {
+            "name": "Lofly Kamille",
+            "desc": "Kamille"
+          },
+          {
+            "name": "Earl Grey",
+            "desc": "Schwarztee · Bergamotte"
+          },
+          {
+            "name": "Björn Blaubeere",
+            "desc": "Kiwi · Blaubeere"
+          },
+          {
+            "name": "Nana Mint",
+            "desc": "Minze"
+          },
+          {
+            "name": "Nikolaus",
+            "desc": "Apfel · Zimt"
+          },
+          {
+            "name": "Pfirsich Pauli",
+            "desc": "Pfirsich · Rooibos"
           },
           {
             "name": "Frischer Tee",
-            "price": "3,90 €",
             "desc": "Ingwer-Zitrone mit Honig"
           }
-        ]
+        ],
+        "note": "Loser Tee, frisch aufgebrüht mit echten Fruchtstücken. Jede Sorte 4,80 €.",
+        "price": "4,80 €"
+      },
+      {
+        "title": "LOFTEA Eistee",
+        "items": [
+          {
+            "name": "Pfirsich"
+          },
+          {
+            "name": "Himbeere"
+          },
+          {
+            "name": "Kiwi, Blaubeere"
+          }
+        ],
+        "note": "Frisch aufgebrüht. Ohne Zuckerzusatz. Ohne Sirup. Voller Geschmack.",
+        "price": "6,00 €"
       }
     ]
   },
@@ -497,12 +490,12 @@ export const PANELS: Panel[] = [
           {
             "name": "Säfte 0,3l",
             "price": "4,20 €",
-            "desc": "Apfelsaft, Mangosaft, Maracujasaft, Ananassaft, Orangensaft, Johannisbeersaft"
+            "desc": "Apfelsaft, Mangosaft, Maracujasaft, , Orangensaft, Johannisbeersaft"
           },
           {
             "name": "Schorlen 0,3l",
             "price": "3,90 €",
-            "desc": "Apfelschorle, Mangoschorle, Maracujaschorle, Ananasschorle, Orangenschorle, Johannisbeerschorle"
+            "desc": "Apfelschorle, Mangoschorle, Maracujaschorle, Orangenschorle, Johannisbeerschorle"
           },
           {
             "name": "Soft Drinks 0,2l",
@@ -520,6 +513,12 @@ export const PANELS: Panel[] = [
           {
             "name": "Wasser Sprudel",
             "price": "0,25l 3,10 € · 0,75l 6,40 €"
+          },
+          {
+            "name": "churchill",
+            "price": " 3,80€ ",
+            "desc": "Soda, Zitrone, Salz & Minze"
+
           }
         ]
       },
@@ -539,7 +538,7 @@ export const PANELS: Panel[] = [
             "price": "4,50 €"
           },
           {
-            "name": "Corona 0,3l",
+            "name": "Salitos 0,3l",
             "price": "5,00 €"
           },
           {
@@ -576,18 +575,14 @@ export const PANELS: Panel[] = [
       {
         "title": "Wine",
         "items": [
+
           {
-            "name": "Weiß · Riesling",
-            "price": "0,2l 6,10 € · 0,75l 20,00 €",
-            "desc": "Felsengartenkellerei"
-          },
-          {
-            "name": "Weiß · Sauvignon Blanc",
+            "name": "Sauvignon Blanc",
             "price": "0,2l 7,50 € · 0,75l 28,00 €",
             "desc": "Fortant de France"
           },
           {
-            "name": "Weiß · Grauburgunder",
+            "name": "Grauburgunder",
             "price": "0,2l 6,30 € · 0,75l 22,00 €",
             "desc": "Felsengartenkellerei"
           },
@@ -596,8 +591,8 @@ export const PANELS: Panel[] = [
             "price": "0,2l 5,50 €"
           },
           {
-            "name": "Weiß · Cà dei Frati Lugana",
-            "price": "0,75l 32,00 €"
+            "name": "Cà dei Frati Lugana",
+            "price": "0,2l 9,50 € · 0,75l 32,00 €"
           },
           {
             "name": "Rosé",
@@ -608,13 +603,9 @@ export const PANELS: Panel[] = [
             "name": "Roséweinschorle",
             "price": "0,2l 5,70 €"
           },
+
           {
-            "name": "Rot · Lemberger",
-            "price": "0,2l 6,30 €",
-            "desc": "Felsengartenkellerei"
-          },
-          {
-            "name": "Rot · Primitivo Salento",
+            "name": "Primitivo Salento",
             "price": "0,2l 6,40 €"
           },
           {
@@ -672,41 +663,9 @@ export const PANELS: Panel[] = [
             "price": "12,90 €"
           },
           {
-            "name": "Pink Gin Sour",
-            "price": "10,90 €"
-          },
-          {
             "name": "Moscow Mule",
             "price": "11,20 €"
           },
-          {
-            "name": "Whiskey Sour",
-            "price": "11,50 €"
-          },
-          {
-            "name": "Amaretto Sour",
-            "price": "11,90 €"
-          },
-          {
-            "name": "Aperol Sour",
-            "price": "11,90 €"
-          },
-          {
-            "name": "Mosh Sour",
-            "price": "12,90 €"
-          },
-          {
-            "name": "Rucola Smash",
-            "price": "11,90 €"
-          },
-          {
-            "name": "Lychee Martini",
-            "price": "12,90 €"
-          },
-          {
-            "name": "Gin Sour",
-            "price": "11,90 €"
-          }
         ]
       },
       {
@@ -740,10 +699,6 @@ export const PANELS: Panel[] = [
           {
             "name": "Hugo",
             "price": "8,90 €"
-          },
-          {
-            "name": "Rucola Smash",
-            "price": "9,20 €"
           },
           {
             "name": "Aperol",
@@ -898,7 +853,7 @@ export const PANELS: Panel[] = [
           },
           {
             "name": "Pink Farm Bread",
-            "price": "13,90 €",
+            "price": "14,20 €",
             "desc": "Geröstetes Bauernbrot mit frischer Rote-Beete-Limettencreme, Räucherlachs, Avocado & Ei, verfeinert mit Pickles, Microgreens & Saatenmix."
           },
           {
@@ -953,7 +908,7 @@ export const PANELS: Panel[] = [
           },
           {
             "name": "Classic French Fries",
-            "price": "5,00 €",
+            "price": "5,90 €",
             "desc": "Knusprige Pommes mit Ketchup & Mayo."
           },
           {
