@@ -541,6 +541,15 @@ export const PANELS: Panel[] = [
             "name": "Salitos 0,3l",
             "price": "5,00 €"
           },
+          
+          {
+            "name": "Kessler Sekt Brut",
+            "price": "0,1l 5,70 € · 0,75l 29,00 €"
+          },
+          {
+            "name": "Kessler Sekt Rosé Brut",
+            "price": "0,1l 5,70 € · 0,75l 29,00 €"
+          },
           {
             "name": "Alkoholfrei 0,3l",
             "price": "3,90 €"
