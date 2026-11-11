@@ -607,15 +607,7 @@ export const PANELS: Panel[] = [
           {
             "name": "Primitivo Salento",
             "price": "0,2l 6,40 €"
-          },
-          {
-            "name": "Schaumwein · Kessler Sekt Brut",
-            "price": "0,1l 5,70 € · 0,75l 29,00 €"
-          },
-          {
-            "name": "Schaumwein · Kessler Sekt Rosé Brut",
-            "price": "0,1l 5,70 € · 0,75l 29,00 €"
-          },
+          }, 
           {
             "name": "Alkoholfreier Sekt",
             "price": "0,1l 5,50 €"
