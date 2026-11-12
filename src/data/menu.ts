@@ -541,15 +541,8 @@ export const PANELS: Panel[] = [
             "name": "Salitos 0,3l",
             "price": "5,00 €"
           },
-          
-          {
-            "name": "Kessler Sekt Brut",
-            "price": "0,1l 5,70 € · 0,75l 29,00 €"
-          },
-          {
-            "name": "Kessler Sekt Rosé Brut",
-            "price": "0,1l 5,70 € · 0,75l 29,00 €"
-          },
+
+
           {
             "name": "Alkoholfrei 0,3l",
             "price": "3,90 €"
@@ -616,11 +609,19 @@ export const PANELS: Panel[] = [
           {
             "name": "Primitivo Salento",
             "price": "0,2l 6,40 €"
-          }, 
+          },
           {
             "name": "Alkoholfreier Sekt",
             "price": "0,1l 5,50 €"
-          }
+          },
+          {
+            "name": "Kessler Sekt Brut",
+            "price": "0,1l 5,70 € · 0,75l 29,00 €"
+          },
+          {
+            "name": "Kessler Sekt Rosé Brut",
+            "price": "0,1l 5,70 € · 0,75l 29,00 €"
+          },
         ]
       },
       {
@@ -797,10 +798,6 @@ export const PANELS: Panel[] = [
           {
             "name": "Crunchy Chicken",
             "price": "+4,50 €"
-          },
-          {
-            "name": "Hähnchenbrust",
-            "price": "+4,50 €"
           }
         ]
       },
@@ -884,20 +881,20 @@ export const PANELS: Panel[] = [
         "items": [
           {
             "name": "Guacamole Fitness Bread",
-           
+
             "desc": "Eiweißbrot mit frischer Guacamole, zwei pochierten Eiern, Kirschtomaten, Rucola und Balsamico-Glace."
           },
           {
             "name": "Fitness Egg & Bresaola Bread",
-           
+
             "desc": "Eiweißbrot mit Zitronen-Schmand, saftigem Rührei, hauchdünner Bresaola und Rucola."
           },
           {
             "name": "Fitness Bread",
-          
+
             "desc": "Eiweißbrot mit Frischkäse, leichtem Pesto, Putenbrust, Mozzarella Light, 2 pochierten Eiern, Salat, Tomate, Gurke & Balsamico."
           }
-          
+
         ],
         "price": "14,90 €",
       },
